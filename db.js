@@ -8,7 +8,7 @@ module.exports = async function connection() {
       useUnifiedTopology: true,
     };
     await mongoose.connect(
-      "mongodb+srv://ravinder:ravinder@yatradata.r9dgz.mongodb.net/?retryWrites=true&w=majority",
+      "Add your database link",
       connectionParams
     );
     console.log("connected to database");
