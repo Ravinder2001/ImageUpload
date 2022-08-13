@@ -2,7 +2,7 @@ const multer = require("multer");
 const GridFsStorage = require("multer-gridfs-storage");
 
 const storage = new GridFsStorage({
-  url: "mongodb+srv://ravinder:ravinder@yatradata.r9dgz.mongodb.net/?retryWrites=true&w=majority",
+  url: "Add your database link",
   options: { useNewUrlParser: true, useUnifiedTopology: true },
   file: (req, file) => {
     const match = ["image/png", "image/jpeg"];
